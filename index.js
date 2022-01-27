@@ -7,7 +7,8 @@ const MongoClient = mongodb.MongoClient;
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const secret = "Hlk013mlhf";
-const URL = "mongodb://localhost:27017";
+// const URL = "mongodb://localhost:27017";
+const URL = "mongodb+srv://shortener:url@cluster0.jjyk2.mongodb.net?retryWrites=true&w=majority";
 
 
 
